@@ -1,0 +1,23 @@
+{
+	"name": "manujoz/translation",
+	"type": "library",
+	"description": "Class for create multilanguage sites o PHP",
+	"version": "1.0.0",
+	"require": {
+        "php": ">=5.5.0"
+	},
+	"homepage": "https://github.com/manujoz/translation.git",
+	"authors": [
+		{
+			"name": "Manu Overa",
+			"email": "manu.giralda@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+        "psr-4": {
+            "Manujoz\\Translation\\": "src/"
+        }
+	},
+	"license": "MIT"
+}
